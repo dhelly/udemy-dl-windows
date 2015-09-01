@@ -13,7 +13,7 @@ import wget
 import subprocess
 
 # Version
-__version__ = '1.7.1'
+__version__ = '1.8.1'
 
 # User Agent String
 useragent = 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0'
@@ -116,7 +116,7 @@ def login(username, password):
 
 def get_course_id(course_link):
     response = session.get(course_link)
-    matches = re.search('data-courseid="(\d+)"', response.text, re.IGNORECASE)
+    matches = re.search('data-course-id="(\d+)"', response.text, re.IGNORECASE)
     return matches.groups()[0] if matches else None
 
 

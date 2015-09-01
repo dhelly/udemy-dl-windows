@@ -3,6 +3,9 @@ A windows utility to download videos from udemy for personal offline use, based 
 
 For Windows (XP, Vista, 7, 8, 10) 32 & 64 bit
 
+### Version
+**1.8.0**
+
 ### Usage
 
 Simply call `udemy-dl.exe` with the full URL to the course page.
@@ -63,4 +66,4 @@ By default `udemy-dl.exe` uses `aria2c.exe` to download the video file. If it is
 ### Versioning 
 This tool will use  MINOR and PATCH version of <https://github.com/gaganpreet/udemy-dl>, as MAJOR and MINOR versions, and its own changes as PATCH version. Which will be a dirty approach with <http://semver.org/>.
 
-For example `v 0.1.7` of `udemy-dl` will be used in `v 1.7.X` of `udemy-dl.exe`.
+For example `v 0.1.8` of `udemy-dl` will be used in `v 1.8.X` of `udemy-dl.exe`.
