@@ -1,5 +1,5 @@
 # udemy-dl for Windows
-A windows utility to download videos from udemy for personal offline use, based on <https://github.com/gaganpreet/udemy-dl>.
+A windows utility to download videos from udemy for personal offline use, based on <https://github.com/nishad/udemy-dl>.
 
 For Windows (XP, Vista, 7, 8, 10) 32 & 64 bit
 
@@ -37,8 +37,8 @@ udemy-dl.exe --help
 
 ```
 usage: udemy-dl.exe [-h] [-u USERNAME] [-p PASSWORD]
-                    [--lecture-start LECTURE_START]
-                    [--lecture-end LECTURE_END] [-o OUTPUT_DIR] [-v]
+                    [--lecture-start LECTURE_START] [--lecture-end LECTURE_END]
+                    [-o OUTPUT_DIR] [-v]
                     link
 
 Fetch all the videos for a udemy course
@@ -58,6 +58,7 @@ optional arguments:
                         Lecture to end at (default is last)
   -o OUTPUT_DIR, --output-dir OUTPUT_DIR
                         Output directory
+  -s, --save-links      Do not download but save links to a file
   -v, --version         Display the version of udemy-dl and exit
 ```
 
@@ -70,6 +71,6 @@ For updating components or to latest development version, run `update.cmd` in th
 By default `udemy-dl.exe` uses `aria2c.exe` to download the video file. If it is missing it will try `curl.exe`, and if both these downloaders are missing it will use built in `wget` function. You can delete `area2c.exe` if it is not working or wants to use `curl.exe`.
 
 ### Versioning 
-This tool will use  MINOR and PATCH version of <https://github.com/gaganpreet/udemy-dl>, as MAJOR and MINOR versions, and its own changes as PATCH version. Which will be a dirty approach with <http://semver.org/>.
+This tool will use  MINOR and PATCH version of <https://github.com/nishad/udemy-dl>, as MAJOR and MINOR versions, and its own changes as PATCH version. Which will be a dirty approach with <http://semver.org/>.
 
-For example `v 0.1.8` of `udemy-dl` will be used in `v 1.8.X` of `udemy-dl.exe`.
+For example `v 0.2.0` of `udemy-dl` will be used in `v 2.0.X` of `udemy-dl.exe`.
