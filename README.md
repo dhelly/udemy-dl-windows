@@ -5,12 +5,12 @@ For Windows (XP, Vista, 7, 8, 10) 32 & 64 bit
 
 ### Download
 
-You can get the lastest release from here.  
+You can get the latest release from here.  
 https://github.com/nishad/udemy-dl-windows/releases/latest  
 Download `udemy-dl-win-X.X.X.zip`  
 
 ### Version
-**1.8.0**
+**2.0.1**
 
 ### Usage
 
