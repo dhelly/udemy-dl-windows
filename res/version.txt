@@ -6,8 +6,8 @@ VSVersionInfo(
   ffi=FixedFileInfo(
     # filevers and prodvers should be always a tuple with four items: (1, 2, 3, 4)
     # Set not needed items to zero 0.
-    filevers=(0, 1, 8, 0),
-    prodvers=(0, 1, 8, 0),
+    filevers=(0, 2, 0, 1),
+    prodvers=(0, 2, 0, 1),
     # Contains a bitmask that specifies the valid bits 'flags'r
     mask=0x3f,
     # Contains a bitmask that specifies the Boolean attributes of the file.
@@ -31,13 +31,13 @@ VSVersionInfo(
         u'000004b0',
         [StringStruct(u'CompanyName', u'Lime Consultants'),
         StringStruct(u'FileDescription', u'Download videos from udemy for personal offline use'),
-        StringStruct(u'FileVersion', u'0.1.8.0'),
+        StringStruct(u'FileVersion', u'0.2.0.1'),
         StringStruct(u'InternalName', u'udemy-dl'),
-        StringStruct(u'LegalCopyright', u'© 2015 Nishad TR (Unlicense)'),
+        StringStruct(u'LegalCopyright', u'© 2016 (Unlicense)'),
         StringStruct(u'LegalTrademarks', u'http://unlicense.org/'),
         StringStruct(u'OriginalFilename', u'udemy-dl.exe'),
         StringStruct(u'ProductName', u'Udemy-DL'),
-        StringStruct(u'ProductVersion', u'1.8.0')])
+        StringStruct(u'ProductVersion', u'2.0.1')])
       ]), 
     VarFileInfo([VarStruct(u'Translation', [0, 1200])])
   ]
