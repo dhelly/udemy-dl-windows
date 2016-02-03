@@ -295,9 +295,8 @@ def udemy_dl(username, password, course_link, lecture_start, lecture_end, dest_d
                 directory = '{0:02d} {1!s}'.format(video['chapter_number'], video['chapter'].encode('utf-8'))
                 directory = sanitize_path(directory)
             except AttributeError:
-            	# Fix for untitled chapters
-            	directory = '{0:02d} {1!s}'.format(video['chapter_number'], 'Untitled')
-                directory = sanitize_path(directory)
+            	# Fix for untitled opening chapter
+            	directory = '00 Opening'
 
             if dest_dir:
                 directory = os.path.join(dest_dir, directory)
