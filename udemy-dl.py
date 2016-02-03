@@ -291,12 +291,13 @@ def udemy_dl(username, password, course_link, lecture_start, lecture_end, dest_d
         if save_links:
             save_link(video['video_url'])
         else:
-            #fix Error trying to download a video from enrolled course with new v2.0.1 Udemy-DL? #37
             try:
                 directory = '{0:02d} {1!s}'.format(video['chapter_number'], video['chapter'].encode('utf-8'))
                 directory = sanitize_path(directory)
             except AttributeError:
-                directory = '00 First Chapter'
+            	# Fix for untitled chapters
+            	directory = '{0:02d} {1!s}'.format(video['chapter_number'], 'Untitled')
+                directory = sanitize_path(directory)
 
             if dest_dir:
                 directory = os.path.join(dest_dir, directory)
