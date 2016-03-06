@@ -203,7 +203,7 @@ def parse_video_url(course_id, lecture_id):
 
 def get_video_links(course_id, lecture_start, lecture_end):
     """ Getting video links from api 1.1. """
-    course_url = 'https://www.udemy.com/api-1.1/courses/{0}/curriculum?fields[lecture]=@min,completionRatio,progressStatus&fields[quiz]=@min,completionRatio'.format(course_id)
+    course_url = 'https://www.udemy.com/api-2.0/courses/{0}/subscriber-curriculum-items?fields%5Basset%5D=@default,length&fields%5Bchapter%5D=@default,object_index&fields%5Blecture%5D=@default,asset,content_summary,num_discussions,num_external_link_assets,num_notes,num_source_code_assets,object_index,url&fields%5Bquiz%5D=@default,content_summary,object_index,url&page_size=9999'.format(course_id)
     course_data = session.get(course_url).json()
 
     chapter = None
@@ -212,12 +212,12 @@ def get_video_links(course_id, lecture_start, lecture_end):
     lecture_number = 1
     chapter_number = 0
     # A udemy course has chapters, each having one or more lectures
-    for item in course_data:
-        if item['__class'] == 'chapter':
+    for item in course_data['results']:
+        if item['_class'] == 'chapter':
             chapter = item['title']
             chapter_number += 1
 
-        elif item['__class'] == 'lecture' and (item['assetType'] == 'Video' or item['assetType'] == 'E-Book' or item['assetType'] == 'VideoMashup' or item['assetType'] == 'Audio'):
+        elif item['_class'] == 'lecture' and (item['asset']['asset_type'] == 'Video' or item['asset']['asset_type'] == 'E-Book' or item['asset']['asset_type'] == 'VideoMashup' or item['asset']['asset_type'] == 'Audio'):
             lecture = item['title']
             if valid_lecture(lecture_number, lecture_start, lecture_end):
                 try:
