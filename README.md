@@ -7,10 +7,12 @@ For Windows (XP, Vista, 7, 8, 10) 32 & 64 bit
 
 You can get the latest release from here.  
 https://github.com/nishad/udemy-dl-windows/releases/latest  
-Download `udemy-dl-win-X.X.X.zip`  
+Download `udemy-dl-win-X.X.X.zip`
+
+[![Total downloads](https://img.shields.io/github/downloads/nishad/udemy-dl-windows/total.svg)](https://github.com/nishad/udemy-dl-windows/releases/latest)
 
 ### Version
-**2.0.1**
+**2.0.1** [![Latest version downloads](https://img.shields.io/github/downloads/nishad/udemy-dl-windows/latest/total.svg)](https://github.com/nishad/udemy-dl-windows/releases/latest)
 
 ### Usage
 
