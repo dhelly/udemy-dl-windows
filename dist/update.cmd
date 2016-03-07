@@ -6,7 +6,7 @@ echo.
 IF EXIST udemy-dl.exe.new (
 del udemy-dl.exe.new
 )
-curl --fail https://raw.githubusercontent.com/nishad/udemy-dl-windows/dist/udemy-dl.exe -o udemy-dl.exe.new
+curl --fail https://raw.githubusercontent.com/nishad/udemy-dl-windows/master/dist/udemy-dl.exe -o udemy-dl.exe.new
 IF EXIST udemy-dl.exe.new (
 del udemy-dl.exe
 ren udemy-dl.exe.new udemy-dl.exe
@@ -19,7 +19,7 @@ echo.
 IF EXIST aria2c.exe.new (
 del aria2c.exe.new
 )
-curl --fail https://raw.githubusercontent.com/nishad/udemy-dl-windows/dist/aria2c.exe -o aria2c.exe.new
+curl --fail https://raw.githubusercontent.com/nishad/udemy-dl-windows/master/dist/aria2c.exe -o aria2c.exe.new
 IF EXIST aria2c.exe.new (
 del aria2c.exe
 ren aria2c.exe.new udemy-dl.exe
@@ -45,7 +45,7 @@ echo Updating curl.exe
 IF EXIST curl.exe.new (
 del curl.exe.new
 )
-curl --fail https://raw.githubusercontent.com/nishad/udemy-dl/win32/dist/curl.exe -o curl.exe.new
+curl --fail https://raw.githubusercontent.com/nishad/udemy-dl-windows/master/dist/curl.exe -o curl.exe.new
 IF EXIST curl.exe.new (
 del curl.exe
 ren curl.exe.new curl.exe
@@ -81,7 +81,7 @@ echo Updating update.cmd
 IF EXIST update.cmd.new (
 del update.cmd.new
 )
-curl --fail https://raw.githubusercontent.com/nishad/udemy-dl-windows/dist/update.cmd -o update.cmd.new
+curl --fail https://raw.githubusercontent.com/nishad/udemy-dl-windows/master/dist/update.cmd -o update.cmd.new
 IF EXIST update.cmd.new (
 del update.cmd
 ren update.cmd.new update.cmd
