@@ -4,6 +4,8 @@ Please prefix your issue with one of the following: **[BUG]** **[PROPOSAL]** **[
 
 - [ ] I have read and understood the [contributors guide]().
 - [ ] I have checked that the bug-fix I am reporting can be replicated, or that the feature I am suggesting isn't already present.
+- [ ] I have checked that the issue I'm posting isn't already reported.
+- [ ] I have checked that the issue I'm porting isn't already solved and no duplicates exist in [closed tab](https://github.com/nishad/udemy-dl-windows/issues?q=is%3Aissue+is%3Aclosed)
 - [ ] I have checked the pull requests tab for existing solutions/implementations to my issue/suggestion.
 
 **My familiarity with the project is as follows (check one):**
@@ -19,4 +21,4 @@ Please prefix your issue with one of the following: **[BUG]** **[PROPOSAL]** **[
 
 ---
 
-{issue content here}
+{issue content here, replace this line with your issue content}
