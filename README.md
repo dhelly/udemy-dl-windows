@@ -70,7 +70,11 @@ optional arguments:
 For updating components or to latest development version, run `update.cmd` in the same folder of `udemy-dl.exe` and `curl.exe`
 
 ### Support
+
+[![ nishad/udemy-dl-windows at Baikal](https://s3-us-west-2.amazonaws.com/nerpa-static/baikal-banner.svg)](https://baikal.io/nishad/udemy-dl-windows)
+
 [![Baikal](https://baikal.io/badges/nishad/udemy-dl-windows)](https://baikal.io/nishad/udemy-dl-windows)
+
 
 ### Downloader 
 By default `udemy-dl.exe` uses `aria2c.exe` to download the video file. If it is missing it will try `curl.exe`, and if both these downloaders are missing it will use built in `wget` function. You can delete `area2c.exe` if it is not working or wants to use `curl.exe`.
