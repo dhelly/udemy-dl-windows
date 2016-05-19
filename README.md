@@ -65,7 +65,7 @@ optional arguments:
 ```
 
 
-### Upadating
+### Updating
 
 For updating components or to latest development version, run `update.cmd` in the same folder of `udemy-dl.exe` and `curl.exe`
 
