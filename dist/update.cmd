@@ -71,7 +71,7 @@ echo Updating curl-ca-bundle.crt
 IF EXIST curl-ca-bundle.crt.new (
 del curl-ca-bundle.crt.new
 )
-curl --fail https://raw.githubusercontent.com/bagder/ca-bundle/master/ca-bundle.crt -o curl-ca-bundle.crt.new
+curl --fail https://curl.haxx.se/ca/cacert.pem -o curl-ca-bundle.crt.new
 IF EXIST curl-ca-bundle.crt.new (
 del curl-ca-bundle.crt
 ren curl-ca-bundle.crt.new curl-ca-bundle.crt
