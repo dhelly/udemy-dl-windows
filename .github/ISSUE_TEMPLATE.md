@@ -1,4 +1,7 @@
-Please prefix your issue with one of the following: **[BUG]** **[PROPOSAL]** **[QUESTION]**.
+Please prefix your issue with one of the following: [BUG], [PROPOSAL], [QUESTION]..
+
+Replace everything between stars with current version of your udemy-dl.exe (output of udemy-dl.exe -v):  
+Version : **X.X.X**
 
 **In raising this issue, I confirm the following (please check boxes):**
 
