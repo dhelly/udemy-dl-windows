@@ -3,7 +3,7 @@ Please prefix your issue with one of the following: [BUG], [PROPOSAL], [QUESTION
 Replace everything between stars with current version of your udemy-dl.exe (output of udemy-dl.exe -v):  
 Version : **X.X.X**
 
-**In raising this issue, I confirm the following (please check boxes):**
+**In raising this issue, I confirm the following (please check boxes, eg [X]):**
 
 - [ ] I have read and understood the [contributors guide](https://github.com/nishad/udemy-dl-windows/blob/master/.github/CONTRIBUTING.md).
 - [ ] I have checked that the bug-fix I am reporting can be replicated, or that the feature I am suggesting isn't already present.
@@ -11,7 +11,7 @@ Version : **X.X.X**
 - [ ] I have checked that the issue I'm porting isn't already solved and no duplicates exist in [closed tab](https://github.com/nishad/udemy-dl-windows/issues?q=is%3Aissue+is%3Aclosed)
 - [ ] I have checked the pull requests tab for existing solutions/implementations to my issue/suggestion.
 
-**My familiarity with the project is as follows (check one):**
+**My familiarity with the project is as follows (check one, eg [X]):**
 
 - [ ] I have never used the project.
 - [ ] I have used the project briefly.
