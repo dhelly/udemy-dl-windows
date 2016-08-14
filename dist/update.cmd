@@ -54,6 +54,19 @@ echo ERROR : Failed to download latest curl.exe
 )
 
 echo.
+echo Updating ffmpeg.exe
+IF EXIST ffmpeg.exe.new (
+del ffmpeg.exe.new
+)
+curl --fail https://raw.githubusercontent.com/nishad/udemy-dl-windows/master/dist/ffmpeg.exe -o ffmpeg.exe.new
+IF EXIST ffmpeg.exe.new (
+del ffmpeg.exe
+ren ffmpeg.exe.new ffmpeg.exe
+) ELSE (
+echo ERROR : Failed to download latest ffmpeg.exe
+)
+
+echo.
 echo Updating curl-ca-bundle.crt
 IF EXIST curl-ca-bundle.crt.new (
 del curl-ca-bundle.crt.new
