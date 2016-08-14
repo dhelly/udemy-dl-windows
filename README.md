@@ -12,7 +12,7 @@ Download `udemy-dl-win-X.X.X.zip`
 [![Total downloads](https://img.shields.io/github/downloads/nishad/udemy-dl-windows/total.svg)](https://github.com/nishad/udemy-dl-windows/releases/latest)
 
 ### Version
-**2.0.1** [![Latest version downloads](https://img.shields.io/github/downloads/nishad/udemy-dl-windows/latest/total.svg)](https://github.com/nishad/udemy-dl-windows/releases/latest)
+**2.1.1** [![Latest version downloads](https://img.shields.io/github/downloads/nishad/udemy-dl-windows/latest/total.svg)](https://github.com/nishad/udemy-dl-windows/releases/latest)
 
 ### Usage
 
@@ -94,4 +94,4 @@ By default `udemy-dl.exe` uses `aria2c.exe` to download the video file. If it is
 ### Versioning 
 This tool will use  MINOR and PATCH version of <https://github.com/nishad/udemy-dl>, as MAJOR and MINOR versions, and its own changes as PATCH version. Which will be a dirty approach with <http://semver.org/>.
 
-For example `v 0.2.0` of `udemy-dl` will be used in `v 2.0.X` of `udemy-dl.exe`.
+For example `v 0.2.1` of `udemy-dl` will be used in `v 2.1.X` of `udemy-dl.exe`.
