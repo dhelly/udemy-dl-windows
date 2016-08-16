@@ -9,7 +9,7 @@ You can get the latest release from here.
 https://github.com/nishad/udemy-dl-windows/releases/latest  
 Download `udemy-dl-win-X.X.X.zip`
 
-[![Total downloads](https://img.shields.io/github/downloads/nishad/udemy-dl-windows/total.svg)](https://github.com/nishad/udemy-dl-windows/releases/latest)
+[![Total downloads](https://img.shields.io/github/downloads/nishad/udemy-dl-windows/total.svg)](https://github.com/nishad/udemy-dl-windows/releases/latest) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b94bce94629e4971ac537660f93345a1)](https://www.codacy.com/app/rimpoche/udemy-dl-windows?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nishad/udemy-dl-windows&amp;utm_campaign=Badge_Grade)
 
 ### Version
 **2.1.1** [![Latest version downloads](https://img.shields.io/github/downloads/nishad/udemy-dl-windows/latest/total.svg)](https://github.com/nishad/udemy-dl-windows/releases/latest)
