@@ -248,13 +248,16 @@ def parse_video(json_source):
         for line in m3u8_str.splitlines():
             if not line.startswith('https://'):
                 continue
-            quality = re.match(r'.*/hls_(\d+)_', line).group(1)
-            dict_videos.setdefault(quality, line)
+            quality = re.match(r'.*/hls_(\d+)_', line)
+            if quality is None:
+                continue
+
+            dict_videos.setdefault(quality.group(1), line)
         found = True
 
     for item in quality_list:
         if dict_videos.get(item):
-            return (dict_videos[item], 'Video', caption_list)
+            return dict_videos[item], 'Video', caption_list
     logger.critical('Skipped. Expected quality not found!')
     return (None, None, None)
 
