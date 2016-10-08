@@ -1,3 +1,6 @@
+## 2.1.2
+* Fixe for #102 ('nonetype' object have no attribute 'group')
+
 ## 2.1.1
 * Video quality selection via `--video-quality`
 * New asset type File contain zip, pptx, psd etc
